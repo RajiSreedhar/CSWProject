@@ -18,7 +18,7 @@ A jar will be produced in the `target` directory.
 ```bash
 java -jar CSWProject-<version>.jar <path>
 ```
-##Instructions to run 
+## Instructions to run 
 Access the resources folder (src/main/resources/JsonInput.json) which is the path for input json and
 update the json input string in the JsonInput.json file
 
@@ -31,7 +31,7 @@ So if the same file name is used for each run then we have to delete the old fil
 If the project is imported to Eclipse with git and would like to see output file in Eclipse,then please
 refresh the project to verify the new file created under src/main/resources
 
-##Example
+## Example
 
 ```bash
 C:\Users\Maruthi\git\CSWProject>mvn clean package
